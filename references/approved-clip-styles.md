@@ -1,6 +1,6 @@
-# Approved clip styles
+# Clip style references
 
-The user explicitly approved the first two image-model examples on September 7, 2026. Apply these to short clips across this skill's video workflows unless a later brief overrides them. Keep a consistent selected style within a batch unless variation is requested. Both styles are approved; select by tone without interrupting the user, and record the choice in project notes.
+These two styles were approved by the original creator. For other channels they are customizable starters, not inherited user approvals. Follow the current creator’s profile and brief. If no style is specified, choose by tone, state the assumption and proceed. Keep a consistent style within a batch unless variation is requested.
 
 ## Shared composition
 
@@ -29,4 +29,4 @@ Small white `Source: <name>` credit at the upper left, without a background badg
 
 ## Implementation and review
 
-Match proportions and hierarchy from the saved reference; font and color values may be approximated using available licensed fonts and tuned against real footage. Verify at delivery resolution and phone scale, including bright backgrounds. The user approved both compositions, not a precise font license or universal pixel measurement. Do not substitute the unselected lime-highlight design by default. Preserve prior exports; rerender them only when requested.
+Match proportions and hierarchy from the saved reference; font and color values may be approximated using available licensed fonts and tuned against real footage. Verify at delivery resolution and phone scale, including bright backgrounds. The original approval covers composition, not a precise font license or universal pixel measurement. Current creator preferences take precedence. Preserve prior exports; rerender them only when requested.

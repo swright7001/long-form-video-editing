@@ -1,7 +1,29 @@
 # Long-form Video Editing
 
-For Hard Money Hustlers, SimpMe, Denominated, and general long-form footage: full episodes and extracted short clips with approved yellow-highlight or cyan-underline captions.
+A reusable Codex skill for any creator editing podcasts, interviews, commentary, tutorials or product videos. Produce polished full episodes, captioned short clips, or both. Originally developed for HMH, SimpMe and Denominated; those channels are optional examples, not setup requirements.
 
-This repository contains one self-contained Codex skill. Copy this directory into your Codex skills directory to install it. Read `SKILL.md` for the workflow. It is an instructional skill using available tools, not a bundled renderer or transcription service.
+## Get started
 
-Preserve original footage and prior exports. External uploads and publishing require applicable authorization. Do not commit footage, private transcripts, credentials, or generated project outputs here.
+1. Obtain the complete repository using GitHub access or an archive supplied by the owner.
+2. Put the repository folder, named `long-form-video-editing`, in your Codex skills directory: `$CODEX_HOME/skills` if configured, otherwise `~/.codex/skills`. Keep `SKILL.md`, `references/`, `assets/` and `agents/` together. Do not overwrite a previous installation without inspecting it.
+3. Start a new Codex task in your footage project and invoke `$long-form-video-editing`, supplying a local video or accessible link and what you want produced.
+
+Example prompt:
+
+> Use $long-form-video-editing for my channel, Garden Notes. Edit this interview into a clean full episode and three vertical shorts. Use my attached branding and cyan-underlined captions on the shorts. Keep source credit visible and processing local. Footage: [provide path or link].
+
+Codex records your preferences in a project-local channel profile. You can customize the channel name, logos, colors, captions, pacing, durations and formats. Included yellow-highlight and cyan-underline designs are starters; your preferences override them. The SimpMe reference images are AI-generated layout examples, not footage to use in your exports.
+
+## What you need
+
+- Codex with access to your media and permission to run the required local tools.
+- FFmpeg/ffprobe or an equivalent capable video editor for processing and export.
+- Existing transcripts or a configured transcription tool for transcript-led editing. Local ASR software/models may require separate setup and adequate compute/storage.
+
+This is an instructional skill, not a bundled editor, transcription service or automatic installer. It requires no particular API key or original creator account. Codex checks available capabilities and explains gaps; optional cloud processing requires authorization for that provider and material. Another Remotion skill is optional, not required for normal editing.
+
+Original media and earlier exports remain untouched. Publishing is a separate action. Do not commit footage, private transcripts, credentials or project outputs here.
+
+## Repository access
+
+This repository is currently private. Friends need collaborator access to clone it, or the owner can provide a copy of the skill folder. A repository URL alone does not grant access.

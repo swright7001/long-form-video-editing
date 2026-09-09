@@ -1,6 +1,6 @@
 ---
 name: long-form-video-editing
-description: Edit long-form podcasts, interviews, commentary, and product videos for Hard Money Hustlers, Denominated, SimpMe, and general sources; produce full episodes and source-linked short clips.
+description: Edit long-form podcasts, interviews, commentary, tutorials, and product videos for any channel; produce full episodes and source-linked short clips using the creator’s own branding.
 ---
 
 # Long-form Video Editing
@@ -23,13 +23,21 @@ Distinguish the requested outputs: a polished full episode, short clips extracte
 
 For full episodes, preserve the conversation arc and speaker context, synchronize cameras to continuous dialogue, verify drift at the beginning and end, and retain necessary sponsor reads and qualifications. Prefer readable optional subtitle sidecars for long episodes unless burned-in captions are requested. Derive chapters from the final edited episode timeline. For derived clips, identify self-contained moments with source timestamps and avoid detached answers or misleading hooks.
 
-Use the supplied source identity for SimpMe and general commentary; do not invent a brand guide or reuse HMH/Denominated branding. Keep projects and outputs separated by source/brand.
+Use the supplied source identity and channel profile; do not invent a brand guide or reuse another creator’s branding. Keep projects and outputs separated by source/brand.
 
-## Short-form layout preference
+## Short-form starter styles
 
-The user prefers footage filling the clip canvas with live, speech-synchronized captions over the video and a small readable source credit (for example, SimpMe). Do not add large top/bottom borders, headline panels, discussion prompts, or footer cards by default. Keep source identity visible with a discreet overlay and preserve the source URL in project notes and any requested post copy. A burned-in credit is not a clickable link.
+The default starter layout uses footage filling the clip canvas with live, speech-synchronized captions over the video and a small readable source credit (for example, SimpMe). Do not add large top/bottom borders, headline panels, discussion prompts, or footer cards by default. Keep source identity visible with a discreet overlay and preserve the source URL in project notes and any requested post copy. A burned-in credit is not a clickable link.
 
-For portrait delivery, reframe around the active speaker while preserving important context. If a full-frame crop would lose another speaker or essential visuals, use a suitable composed video layout or discuss the aspect ratio rather than restoring decorative panels. The user approved the yellow-highlight and cyan-underline examples on September 7, 2026. Use these two styles for short clips; read [Approved clip styles](references/approved-clip-styles.md) and inspect the matching saved image before implementing. Choose yellow for emphatic clips or cyan for a restrained treatment when the user has not specified one. Both are approved; do not require another style approval. The lime-highlight example was not selected. Existing exports need not be rerendered unless requested.
+For portrait delivery, reframe around the active speaker while preserving important context. If a full-frame crop would lose another speaker or essential visuals, use a suitable composed video layout or discuss the aspect ratio rather than restoring decorative panels. Two reusable starter styles are included: yellow highlight and cyan underline. Read [Clip style references](references/approved-clip-styles.md) and inspect the matching saved image before implementing. Choose yellow for emphatic clips or cyan for a restrained treatment when no preference is supplied, and state that assumption without requiring a separate approval step. These are the original creator’s approved examples, not evidence of approval by a new user. The current creator’s channel profile or explicit directions override them, including colors, typography, credit placement and alternative layouts. Existing exports need not be rerendered unless requested.
+
+## First use with a new creator
+
+This package is portable; no original creator account, brand, local filesystem path, API key, or separate studio-video-editing skill is required. Resolve references relative to this SKILL.md. Use the operating system and tools actually available; do not assume macOS, Homebrew, or installed transcription software.
+
+Start from the supplied footage/link and requested deliverables. If the source is a link, use a supported authorized download or ask for a local source when unavailable; do not bypass access restrictions. Check FFmpeg/ffprobe or equivalent editor capabilities and access to usable transcripts or a configured local transcription tool. Report missing capabilities before promising a complete render. The skill does not bundle or automatically install these tools.
+
+Read an existing channel profile in the user’s project. Otherwise use [Channel profile](references/channel-profile.md) to record known preferences in a project-local channel-profile.md, filling only what the brief or supplied assets establish. Ask for the source or desired deliverable if missing; infer reversible style choices rather than blocking on every profile field. Never ask a new creator to provide HMH, Denominated or SimpMe assets. Treat included names and images only as examples.
 
 ## Start with the project
 

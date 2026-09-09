@@ -1,8 +1,8 @@
 # Editorial profiles
 
-Use only the profile relevant to the request. These are suggested defaults; actual logos, colors, fonts, hosts, sponsors, CTAs and platform requirements must come from supplied or approved material.
+Named channels are examples, not prerequisites or default branding. Use only the profile relevant to the request. These are suggested defaults; actual logos, colors, fonts, hosts, sponsors, CTAs and platform requirements must come from supplied or approved material.
 
-## Hard Money Hustlers
+## Podcasts and interviews (example: Hard Money Hustlers)
 
 For a full podcast episode, preserve the conversation's argument, speaker cadence and host/guest chemistry. Remove setup chatter, clearly abandoned takes and excessive dead time when appropriate. Keep meaningful laughter, reactions and the context of answers. Preserve sponsor reads and required disclosures unless the brief directs otherwise. Use speaker cuts that follow the conversation rather than frequent arbitrary zooms.
 
@@ -12,7 +12,7 @@ Verify names, dollar amounts, percentages and terms such as LTV, ARV, points and
 
 If requested, deliver a full episode, separate short clips, caption files, source-timestamped clip descriptions, and chapter markers. Compute chapter timestamps from the final episode timeline, not the raw recording. Titles and thumbnails must accurately represent the finished clip.
 
-## Denominated
+## Product and brand videos (example: Denominated)
 
 Choose the structure from the actual footage and brief: product walkthrough, feature announcement, educational explainer, founder story, or brand piece. A useful provisional sequence for product footage is problem, visible demonstration, benefit, and an approved next step.
 
