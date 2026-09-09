@@ -26,4 +26,4 @@ Original media and earlier exports remain untouched. Publishing is a separate ac
 
 ## Repository access
 
-This repository is currently private. Friends need collaborator access to clone it, or the owner can provide a copy of the skill folder. A repository URL alone does not grant access.
+This repository is public. Anyone can clone it or download the complete folder from GitHub; no collaborator invitation is needed.
